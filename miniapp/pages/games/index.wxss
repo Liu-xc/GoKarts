@@ -1,0 +1,10 @@
+/* pages/index/index.wxss */
+.detail-text {
+  font-size: 30rpx;
+}
+.text-good {
+  color: #07C160;
+}
+.text-info {
+  color: #1a1b1b;
+}

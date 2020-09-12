@@ -1,0 +1,22 @@
+<view class="weui-cells weui-cells_after-title">
+  <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">训练赛</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access detail-text text-good">进行中</view>
+  </navigator>
+  <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">挑战赛</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access  detail-text text-good">进行中</view>
+  </navigator>
+  <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">排位赛</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access  detail-text text-good">去排队</view>
+  </navigator>
+  <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">战队赛</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access  detail-text text-info">限时开启</view>
+  </navigator>
+  <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">娱乐赛</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access  detail-text text-info">限时开启</view>
+  </navigator>
+</view>

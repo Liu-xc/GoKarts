@@ -1,0 +1,30 @@
+<view class='productNav'>
+  <!-- 左侧 -->
+  <view class='left'>
+    <view class="{{active==0?'selected':'normal'}}" id="0" bindtap='switchNav'>训练场</view>
+    <view class="{{active==1?'selected':'normal'}}" id="1" bindtap='switchNav'>挑战场</view>
+    <view class="{{active==2?'selected':'normal'}}" id="2" bindtap='switchNav'>排位场</view>
+  </view>
+  <!-- 右侧 -->
+  <view class='right'>
+    <view class='type'>
+      <!-- current:当前所在滑块的 index -->
+      <!-- vertical:滑动方向是否为纵向 -->
+      <swiper current='{{currentTab}}' vertical='{{true}}'>
+        <!-- catchtouchmove 阻止弹窗后滚动穿透 -->
+        <swiper-item id="0" catchtouchmove="false">
+          <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell">
+              <view class="weui-cell__bd goods-text">单场定价20，活动7.5折</view>
+              <view class="weui-cell__ft">
+                <button size="mini" type="primary" plain="{{true}}" class="buy-btn">购买</button>
+              </view>
+            </view>
+          </view>
+        </swiper-item>
+        <swiper-item id="1" catchtouchmove="false">挑战场</swiper-item>
+        <swiper-item id="2" catchtouchmove="false">排位场</swiper-item>
+      </swiper>
+    </view>
+  </view>
+</view>
