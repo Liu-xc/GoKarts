@@ -13,17 +13,220 @@
       <swiper current='{{currentTab}}' vertical='{{true}}'>
         <!-- catchtouchmove 阻止弹窗后滚动穿透 -->
         <swiper-item id="0" catchtouchmove="false">
-          <view class="weui-cells weui-cells_after-title">
-            <view class="weui-cell">
-              <view class="weui-cell__bd goods-text">单场定价20，活动7.5折</view>
-              <view class="weui-cell__ft">
-                <button size="mini" type="primary" plain="{{true}}" class="buy-btn">购买</button>
+          <scroll-view scroll-y="{{true}}" class="swiper-item-scroll" enable-back-to-top="{{true}}">
+            <view class="weui-cells weui-cells_after-title">
+              <view class="weui-cell">
+                <view class="weui-cell__bd goods-text">单场定价20，活动7.5折</view>
+                <view class="weui-cell__ft">
+                  <button size="mini" type="primary" plain="{{true}}" class="buy-btn">购买</button>
+                </view>
               </view>
             </view>
-          </view>
+            <view class="weui-cells weui-cells_after-title">
+              <view class="weui-cell">
+                <view class="weui-cell__bd goods-text">单场定价20，活动7.5折</view>
+                <view class="weui-cell__ft">
+                  <button size="mini" type="primary" plain="{{true}}" class="buy-btn">购买</button>
+                </view>
+              </view>
+            </view>
+            <view class="weui-cells weui-cells_after-title">
+              <view class="weui-cell">
+                <view class="weui-cell__bd goods-text">单场定价20，活动7.5折</view>
+                <view class="weui-cell__ft">
+                  <button size="mini" type="primary" plain="{{true}}" class="buy-btn">购买</button>
+                </view>
+              </view>
+            </view>
+            <view class="weui-cells weui-cells_after-title">
+              <view class="weui-cell">
+                <view class="weui-cell__bd goods-text">单场定价20，活动7.5折</view>
+                <view class="weui-cell__ft">
+                  <button size="mini" type="primary" plain="{{true}}" class="buy-btn">购买</button>
+                </view>
+              </view>
+            </view>
+            <view class="weui-cells weui-cells_after-title">
+              <view class="weui-cell">
+                <view class="weui-cell__bd goods-text">单场定价20，活动7.5折</view>
+                <view class="weui-cell__ft">
+                  <button size="mini" type="primary" plain="{{true}}" class="buy-btn">购买</button>
+                </view>
+              </view>
+            </view>
+            <view class="weui-cells weui-cells_after-title">
+              <view class="weui-cell">
+                <view class="weui-cell__bd goods-text">单场定价20，活动7.5折</view>
+                <view class="weui-cell__ft">
+                  <button size="mini" type="primary" plain="{{true}}" class="buy-btn">购买</button>
+                </view>
+              </view>
+            </view>
+            <view class="weui-cells weui-cells_after-title">
+              <view class="weui-cell">
+                <view class="weui-cell__bd goods-text">单场定价20，活动7.5折</view>
+                <view class="weui-cell__ft">
+                  <button size="mini" type="primary" plain="{{true}}" class="buy-btn">购买</button>
+                </view>
+              </view>
+            </view>
+            <view class="weui-cells weui-cells_after-title">
+              <view class="weui-cell">
+                <view class="weui-cell__bd goods-text">单场定价20，活动7.5折</view>
+                <view class="weui-cell__ft">
+                  <button size="mini" type="primary" plain="{{true}}" class="buy-btn">购买</button>
+                </view>
+              </view>
+            </view>
+            <view class="weui-cells weui-cells_after-title">
+              <view class="weui-cell">
+                <view class="weui-cell__bd goods-text">单场定价20，活动7.5折</view>
+                <view class="weui-cell__ft">
+                  <button size="mini" type="primary" plain="{{true}}" class="buy-btn">购买</button>
+                </view>
+              </view>
+            </view>
+            <view class="weui-cells weui-cells_after-title">
+              <view class="weui-cell">
+                <view class="weui-cell__bd goods-text">单场定价20，活动7.5折</view>
+                <view class="weui-cell__ft">
+                  <button size="mini" type="primary" plain="{{true}}" class="buy-btn">购买</button>
+                </view>
+              </view>
+            </view>
+            <view class="weui-cells weui-cells_after-title">
+              <view class="weui-cell">
+                <view class="weui-cell__bd goods-text">单场定价20，活动7.5折</view>
+                <view class="weui-cell__ft">
+                  <button size="mini" type="primary" plain="{{true}}" class="buy-btn">购买</button>
+                </view>
+              </view>
+            </view>
+            <view class="weui-cells weui-cells_after-title">
+              <view class="weui-cell">
+                <view class="weui-cell__bd goods-text">单场定价20，活动7.5折</view>
+                <view class="weui-cell__ft">
+                  <button size="mini" type="primary" plain="{{true}}" class="buy-btn">购买</button>
+                </view>
+              </view>
+            </view>
+            <view class="weui-cells weui-cells_after-title">
+              <view class="weui-cell">
+                <view class="weui-cell__bd goods-text">单场定价20，活动7.5折</view>
+                <view class="weui-cell__ft">
+                  <button size="mini" type="primary" plain="{{true}}" class="buy-btn">购买</button>
+                </view>
+              </view>
+            </view>
+            <view class="weui-cells weui-cells_after-title">
+              <view class="weui-cell">
+                <view class="weui-cell__bd goods-text">单场定价20，活动7.5折</view>
+                <view class="weui-cell__ft">
+                  <button size="mini" type="primary" plain="{{true}}" class="buy-btn">购买</button>
+                </view>
+              </view>
+            </view>
+            <view class="weui-cells weui-cells_after-title">
+              <view class="weui-cell">
+                <view class="weui-cell__bd goods-text">单场定价20，活动7.5折</view>
+                <view class="weui-cell__ft">
+                  <button size="mini" type="primary" plain="{{true}}" class="buy-btn">购买</button>
+                </view>
+              </view>
+            </view>
+            <view class="weui-cells weui-cells_after-title">
+              <view class="weui-cell">
+                <view class="weui-cell__bd goods-text">单场定价20，活动7.5折</view>
+                <view class="weui-cell__ft">
+                  <button size="mini" type="primary" plain="{{true}}" class="buy-btn">购买</button>
+                </view>
+              </view>
+            </view>
+            <view class="weui-cells weui-cells_after-title">
+              <view class="weui-cell">
+                <view class="weui-cell__bd goods-text">单场定价20，活动7.5折</view>
+                <view class="weui-cell__ft">
+                  <button size="mini" type="primary" plain="{{true}}" class="buy-btn">购买</button>
+                </view>
+              </view>
+            </view>
+            <view class="weui-cells weui-cells_after-title">
+              <view class="weui-cell">
+                <view class="weui-cell__bd goods-text">单场定价20，活动7.5折</view>
+                <view class="weui-cell__ft">
+                  <button size="mini" type="primary" plain="{{true}}" class="buy-btn">购买</button>
+                </view>
+              </view>
+            </view>
+            <view class="weui-cells weui-cells_after-title">
+              <view class="weui-cell">
+                <view class="weui-cell__bd goods-text">单场定价20，活动7.5折</view>
+                <view class="weui-cell__ft">
+                  <button size="mini" type="primary" plain="{{true}}" class="buy-btn">购买</button>
+                </view>
+              </view>
+            </view>
+            <view class="weui-cells weui-cells_after-title">
+              <view class="weui-cell">
+                <view class="weui-cell__bd goods-text">单场定价20，活动7.5折</view>
+                <view class="weui-cell__ft">
+                  <button size="mini" type="primary" plain="{{true}}" class="buy-btn">购买</button>
+                </view>
+              </view>
+            </view>
+            <view class="weui-cells weui-cells_after-title">
+              <view class="weui-cell">
+                <view class="weui-cell__bd goods-text">单场定价20，活动7.5折</view>
+                <view class="weui-cell__ft">
+                  <button size="mini" type="primary" plain="{{true}}" class="buy-btn">购买</button>
+                </view>
+              </view>
+            </view>
+            <view class="weui-cells weui-cells_after-title">
+              <view class="weui-cell">
+                <view class="weui-cell__bd goods-text">单场定价20，活动7.5折</view>
+                <view class="weui-cell__ft">
+                  <button size="mini" type="primary" plain="{{true}}" class="buy-btn">购买</button>
+                </view>
+              </view>
+            </view>
+            <view class="weui-cells weui-cells_after-title">
+              <view class="weui-cell">
+                <view class="weui-cell__bd goods-text">单场定价20，活动7.5折</view>
+                <view class="weui-cell__ft">
+                  <button size="mini" type="primary" plain="{{true}}" class="buy-btn">购买</button>
+                </view>
+              </view>
+            </view>
+          </scroll-view>
         </swiper-item>
-        <swiper-item id="1" catchtouchmove="false">挑战场</swiper-item>
-        <swiper-item id="2" catchtouchmove="false">排位场</swiper-item>
+        <swiper-item id="1" catchtouchmove="false">
+          <scroll-view scroll-y="{{true}}" class="swiper-item-scroll" enable-back-to-top="{{true}}">
+            <view class="weui-cells weui-cells_after-title">
+              <view class="weui-cell">
+                <view class="weui-cell__bd goods-text">月卡398活动直降100元
+限量100份还剩99份</view>
+                <view class="weui-cell__ft">
+                  <button size="mini" type="primary" plain="{{true}}" class="buy-btn">抢购</button>
+                </view>
+              </view>
+            </view>
+          </scroll-view>
+        </swiper-item>
+        <swiper-item id="2" catchtouchmove="false">
+          <scroll-view scroll-y="{{true}}" class="swiper-item-scroll" enable-back-to-top="{{true}}">
+            <view class="weui-cells weui-cells_after-title">
+              <view class="weui-cell">
+                <view class="weui-cell__bd goods-text">
+                  年卡2988活动直降500元限量50份还剩10份还剩10份还剩10份还剩10份还剩10份
+                </view>
+                <view class="weui-cell__ft">
+                  <button size="mini" type="primary" plain="{{true}}" class="buy-btn">抢购</button>
+                </view>
+              </view>
+            </view>
+          </scroll-view>
+        </swiper-item>
       </swiper>
     </view>
   </view>

@@ -44,12 +44,29 @@
 
     swiper {
       height: 100%;
+      overflow: scroll;
+
+      swiper-item {
+
+        .swiper-item-scroll {
+          height: 100%;
+          .weui-cells {
+            margin: 0;
+          }
+        }
+      }
     }
   }
 }
 
 .goods-text {
   font-size: 30rpx;
+  padding: 2rpx 6rpx;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .buy-btn {

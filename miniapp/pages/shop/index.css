@@ -39,9 +39,22 @@
 }
 .right .type swiper {
   height: 100%;
+  overflow: scroll;
+}
+.right .type swiper swiper-item .swiper-item-scroll {
+  height: 100%;
+}
+.right .type swiper swiper-item .swiper-item-scroll .weui-cells {
+  margin: 0;
 }
 .goods-text {
   font-size: 30rpx;
+  padding: 2rpx 6rpx;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .buy-btn {
   font-size: 24rpx !important;
