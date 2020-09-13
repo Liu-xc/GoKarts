@@ -1,2 +1,98 @@
-<!--pages/排行榜/index.wxml-->
-<text>pages/排行榜/index.wxml</text>
+<view class='productNav'>
+  <!-- 左侧 -->
+  <view class='left'>
+    <view class="{{active==0?'selected':'normal'}}" id="0" bindtap='switchNav'>我的赛事</view>
+    <view class="{{active==1?'selected':'normal'}}" id="1" bindtap='switchNav'>顶级玩家</view>
+    <view class="{{active==2?'selected':'normal'}}" id="2" bindtap='switchNav'>顶级战队</view>
+  </view>
+  <!-- 右侧 -->
+  <view class='right'>
+    <view class='type'>
+      <!-- current:当前所在滑块的 index -->
+      <!-- vertical:滑动方向是否为纵向 -->
+      <swiper current='{{currentTab}}' vertical='{{true}}'>
+        <!-- catchtouchmove 阻止弹窗后滚动穿透 -->
+        <swiper-item id="0" catchtouchmove="false">
+          <scroll-view scroll-y="{{true}}" class="swiper-item-scroll" enable-back-to-top="{{true}}">
+            <view class="weui-cells weui-cells_after-title">
+              <view class="weui-cell rank-cell">
+                <view class="weui-cell__bd rank-level">白银Ⅰ</view>
+                <view class="weui-cell__ft rank">23 / 75</view>
+              </view>
+            </view>
+          </scroll-view>
+        </swiper-item>
+        <swiper-item id="1" catchtouchmove="false">
+          <scroll-view scroll-y="{{true}}" class="swiper-item-scroll" enable-back-to-top="{{true}}">
+            <view class="weui-cells weui-cells_after-title">
+              <view class="weui-cell top-player">
+                <view class="rank-num player-info">No.</view>
+                <view class="rank-level player-info">段位</view>
+                <view class="top-player-name player-info">车手</view>
+                <view class="rank-score player-info">积分</view>
+              </view>
+            </view>
+            <view class="weui-cells weui-cells_after-title">
+              <view class="weui-cell top-player">
+                <view class="rank-num player-info">1</view>
+                <view class="rank-level player-info">传奇杯Ⅰ</view>
+                <view class="top-player-name player-info">拓海</view>
+                <view class="rank-score player-info">3892</view>
+              </view>
+            </view>
+            <view class="weui-cells weui-cells_after-title">
+              <view class="weui-cell top-player">
+                <view class="rank-num player-info">2</view>
+                <view class="rank-level player-info">传奇杯Ⅰ</view>
+                <view class="top-player-name player-info">夏树</view>
+                <view class="rank-score player-info">2783</view>
+              </view>
+            </view>
+          </scroll-view>
+        </swiper-item>
+        <swiper-item id="2" catchtouchmove="false">
+          <scroll-view scroll-y="{{true}}" class="swiper-item-scroll" enable-back-to-top="{{true}}">
+            <view class="rank-switch">
+              <view class="[rank-switch-choice, {{activeTR == 0? 'selected-tr': 'normal-tr'}}]" bind:tap="handleSwitchTeamRank" data-index="0">
+                全国
+              </view>
+              <view class="[rank-switch-choice, {{activeTR != 0? 'selected-tr': 'normal-tr'}}]" bind:tap="handleSwitchTeamRank" data-index="1">
+                本地
+              </view>
+            </view>
+            <view class="weui-cells weui-cells_after-title">
+              <view class="weui-cell top-player">
+                <view class="rank-num player-info">No.</view>
+                <view class="rank-level player-info">战队</view>
+                <view class="top-player-name player-info">成员</view>
+                <view class="rank-score player-info">积分</view>
+              </view>
+            </view>
+            <swiper indicator-dots="{{false}}" autoplay="{{false}}" vertical="{{false}}" current="{{teamRankList}}">
+              <swiper-item item-id="0" catchtouchmove="false">
+                <view class="weui-cells weui-cells_after-title">
+                  <view class="weui-cell top-player">
+                    <view class="rank-num player-info">1</view>
+                    <view class="rank-level player-info">InitialD</view>
+                    <view class="top-player-name player-info">24 / 50</view>
+                    <view class="rank-score player-info">2783</view>
+                  </view>
+                </view>
+              </swiper-item>
+              <swiper-item item-id="1" catchtouchmove="false">
+                <view class="weui-cells weui-cells_after-title">
+                  <view class="weui-cell top-player">
+                    <view class="rank-num player-info">1</view>
+                    <view class="rank-level player-info">滚石</view>
+                    <view class="top-player-name player-info">23 / 50</view>
+                    <view class="rank-score player-info">2729</view>
+                  </view>
+                </view>
+              </swiper-item>
+            </swiper>
+          </scroll-view>
+        </swiper-item>
+      </swiper>
+    </view>
+  </view>
+</view>

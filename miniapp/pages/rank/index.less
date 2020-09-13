@@ -1,0 +1,114 @@
+.productNav {
+  display: flex;
+  flex-direction: row;
+  font-family: "Microsoft YaHei";
+  height: 100%;
+}
+
+.left {
+  width: 25%;
+  font-size: 30rpx;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+}
+
+.left view {
+  text-align: center;
+  height: 90rpx;
+  line-height: 90rpx;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.selected {
+  background-color: #fff;
+  border-left: 2px solid #07C160;
+  font-weight: bold;
+  color: #07C160;
+}
+
+.selected-tr {
+  background-color: #fff;
+  border-bottom: 2px solid #07C160;
+  font-weight: bold;
+  color: #07C160;
+}
+
+.normal {
+  background-color: #f4f4f4;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.normal-tr {
+  background-color: white;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.right {
+  height: 100%;
+  width: 75%;
+
+  .type {
+    height: 100%;
+
+    swiper {
+      height: 100%;
+      overflow: scroll;
+
+      swiper-item {
+
+        .swiper-item-scroll {
+          height: 100%;
+
+          .weui-cells {
+            margin: 0;
+
+
+            .top-player {
+              padding: 32rpx 12rpx;
+
+              .player-info {
+                white-space: nowrap;
+                overflow: hidden;
+                text-align: center;
+                font-size: 28rpx;
+                text-overflow: ellipsis;
+              }
+
+              .rank-num {
+                width: 20%;
+              }
+
+              .rank-level {
+                width: 25%;
+              }
+
+              .top-player-name {
+                width: 30%;
+              }
+
+              .rank-score {
+                width: 25%;
+              }
+
+            }
+
+          }
+        }
+      }
+    }
+  }
+}
+
+.rank-switch {
+  display: flex;
+  height: 70rpx;
+  text-align: center;
+
+  .rank-switch-choice {
+    flex: 1;
+  }
+}

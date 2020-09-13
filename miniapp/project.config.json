@@ -63,6 +63,13 @@
 					"id": -1,
 					"name": "商城",
 					"pathName": "pages/shop/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "排行榜",
+					"pathName": "pages/rank/index",
 					"scene": null
 				}
 			]
