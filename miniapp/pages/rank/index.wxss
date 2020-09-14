@@ -57,28 +57,6 @@
 .right .type swiper swiper-item .swiper-item-scroll .weui-cells {
   margin: 0;
 }
-.right .type swiper swiper-item .swiper-item-scroll .weui-cells .top-player {
-  padding: 32rpx 12rpx;
-}
-.right .type swiper swiper-item .swiper-item-scroll .weui-cells .top-player .player-info {
-  white-space: nowrap;
-  overflow: hidden;
-  text-align: center;
-  font-size: 28rpx;
-  text-overflow: ellipsis;
-}
-.right .type swiper swiper-item .swiper-item-scroll .weui-cells .top-player .rank-num {
-  width: 20%;
-}
-.right .type swiper swiper-item .swiper-item-scroll .weui-cells .top-player .rank-level {
-  width: 25%;
-}
-.right .type swiper swiper-item .swiper-item-scroll .weui-cells .top-player .top-player-name {
-  width: 30%;
-}
-.right .type swiper swiper-item .swiper-item-scroll .weui-cells .top-player .rank-score {
-  width: 25%;
-}
 .rank-switch {
   display: flex;
   height: 70rpx;
@@ -86,4 +64,26 @@
 }
 .rank-switch .rank-switch-choice {
   flex: 1;
+}
+.top-player {
+  padding: 32rpx 12rpx;
+}
+.top-player .player-info {
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: center;
+  font-size: 28rpx;
+  text-overflow: ellipsis;
+}
+.top-player .rank-num {
+  width: 20%;
+}
+.top-player .rank-level {
+  width: 25%;
+}
+.top-player .top-player-name {
+  width: 30%;
+}
+.top-player .rank-score {
+  width: 25%;
 }

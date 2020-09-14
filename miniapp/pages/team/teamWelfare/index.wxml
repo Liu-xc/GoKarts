@@ -5,10 +5,10 @@
   </view>
   <view class="weui-cell">
     <view class="column1">1</view>
-    <view class="column2">福利</view>
+    <view class="column2">福利详情</view>
   </view>
   <view class="weui-cell">
     <view class="column1">2</view>
-    <view class="column2">福利</view>
+    <view class="column2">福利详情</view>
   </view>
 </view>

@@ -1,4 +1,5 @@
 <view class="container">
+  <view class="team-name">Initial D</view>
   <view class="new-member">
     <button class="new-member-btn" size="default" type="primary">寻找新成员</button>
   </view>

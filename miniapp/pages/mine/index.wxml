@@ -1,2 +1,26 @@
-<!--pages/mine/index.wxml-->
-<text>pages/mine/index.wxml</text>
+<view class="container">
+  <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">订单</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </navigator>
+  <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">积分商城</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </navigator>
+  <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">红包卡券</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </navigator>
+  <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">消息</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </navigator>
+  <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">会员</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </navigator>
+  <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">设置</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </navigator>
+</view>

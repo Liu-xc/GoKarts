@@ -7,8 +7,8 @@ Page({
   data: {
     active:0,
     currentTab:0,
-    teamRankList: 0,
-    activeTR: 0
+    activeTR: 0,
+    activeTP: 0
   },
 
   switchNav: function (e) {
@@ -28,10 +28,18 @@ Page({
 
   handleSwitchTeamRank (e) {
     const index = e.currentTarget.dataset.index
-    if (index !== this.data.teamRankList) {
+    if (index !== this.data.activeTR) {
       this.setData({
-        teamRankList: index,
         activeTR: index
+      })
+    }
+  },
+
+  handleSwitchPlayerRank (e) {
+    const index = e.currentTarget.dataset.index
+    if (index !== this.data.activeTP) {
+      this.setData({
+        activeTP: index
       })
     }
   },
