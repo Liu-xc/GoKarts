@@ -1,2 +1,10 @@
-<!--pages/team/index.wxml-->
-<text>pages/team/index.wxml</text>
+<view class="weui-cells weui-cells_after-title">
+  <navigator url="./myteam/index" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">我的战队</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access detail-text text-info">详情</view>
+  </navigator>
+  <navigator url="./teamWelfare/index" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">战队福利</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access  detail-text text-info">详情</view>
+  </navigator>
+</view>

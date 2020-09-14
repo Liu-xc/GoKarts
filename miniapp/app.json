@@ -4,7 +4,9 @@
     "pages/shop/index",
     "pages/rank/index",
     "pages/team/index",
-    "pages/mine/index"
+    "pages/mine/index",
+    "pages/team/myteam/index",
+    "pages/team/teamWelfare/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -15,26 +17,28 @@
   "style": "v2",
   "sitemapLocation": "sitemap.json",
   "tabBar": {
-    "list": [{
-      "pagePath": "pages/games/index",
-      "text": "赛事"
-    },
-    {
-      "pagePath": "pages/shop/index",
-      "text": "商城"
-    },
-    {
-      "pagePath": "pages/rank/index",
-      "text": "排行榜"
-    },
-    {
-      "pagePath": "pages/team/index",
-      "text": "战队"
-    },
-    {
-      "pagePath": "pages/mine/index",
-      "text": "我的"
-    }]
+    "list": [
+      {
+        "pagePath": "pages/games/index",
+        "text": "赛事"
+      },
+      {
+        "pagePath": "pages/shop/index",
+        "text": "商城"
+      },
+      {
+        "pagePath": "pages/rank/index",
+        "text": "排行榜"
+      },
+      {
+        "pagePath": "pages/team/index",
+        "text": "战队"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "text": "我的"
+      }
+    ]
   },
   "useExtendedLib": {
     "weui": true

@@ -1,0 +1,28 @@
+<view class="container">
+  <view class="new-member">
+    <button class="new-member-btn" size="default" type="primary">寻找新成员</button>
+  </view>
+  <view class="member-list">
+    <view class="weui-cells weui-cells_after-title member-list-item">
+      <view class="weui-cell list-columns">
+        <view class="list-column1">No.</view>
+        <view class="list-column2">成员</view>
+        <view class="list-column3">积分</view>
+      </view>
+    </view>
+    <view class="weui-cells weui-cells_after-title member-list-item">
+      <view class="weui-cell list-columns">
+        <view class="list-column1">1</view>
+        <view class="list-column2">拓海</view>
+        <view class="list-column3">2348</view>
+      </view>
+    </view>
+    <view class="weui-cells weui-cells_after-title member-list-item">
+      <view class="weui-cell list-columns">
+        <view class="list-column1">2</view>
+        <view class="list-column2">夏树</view>
+        <view class="list-column3">2233</view>
+      </view>
+    </view>
+  </view>
+</view>

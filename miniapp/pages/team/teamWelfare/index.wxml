@@ -1,0 +1,14 @@
+<view class="weui-cells weui-cells_after-title">
+  <view class="weui-cell">
+    <view class="column1">等级</view>
+    <view class="column2">福利</view>
+  </view>
+  <view class="weui-cell">
+    <view class="column1">1</view>
+    <view class="column2">福利</view>
+  </view>
+  <view class="weui-cell">
+    <view class="column1">2</view>
+    <view class="column2">福利</view>
+  </view>
+</view>

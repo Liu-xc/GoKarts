@@ -70,6 +70,27 @@
 					"id": -1,
 					"name": "排行榜",
 					"pathName": "pages/rank/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "战队",
+					"pathName": "pages/team/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "我的战队",
+					"pathName": "pages/team/myteam/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "战队福利",
+					"pathName": "pages/team/teamWelfear/index",
 					"scene": null
 				}
 			]

@@ -1,40 +1,13 @@
-// pages/shop/index.js
+// pages/team/myteam/index.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    active:0,
-    currentTab:0,
-    teamRankList: 0,
-    activeTR: 0
+
   },
 
-  switchNav: function (e) {
-    var page = this;
-    var id = e.target.id;
-    if (this.data.currentTab == id) {
-      return false;
-    } else {
-      page.setData({
-        currentTab: id
-      });
-    }
-    page.setData({
-      active: id
-    });
-  },
-
-  handleSwitchTeamRank (e) {
-    const index = e.currentTarget.dataset.index
-    if (index !== this.data.teamRankList) {
-      this.setData({
-        teamRankList: index,
-        activeTR: index
-      })
-    }
-  },
   /**
    * 生命周期函数--监听页面加载
    */
